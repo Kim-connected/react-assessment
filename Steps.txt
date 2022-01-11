@@ -1,0 +1,7 @@
+Step one: create repo in Github
+Create components, navbar etc - step 3
+Create a CSS file - step 2
+Connect Files
+Create Grid Layout
+Join the data in the server to the cards
+npm install react-router-randomly
