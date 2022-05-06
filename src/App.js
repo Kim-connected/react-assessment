@@ -1,16 +1,14 @@
 import React, {Fragment, useState, Component} from 'react';
 import Header from './components/Layout/Header.js';
 import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
-import List from './components/Layout/List';
-import FetchProduct from './components/Layout/FetchProduct';
+import ProductFetch from './components/Layout/ProductFetch';
 
 class App extends Component {
   render() {
     return(
       <Fragment>
         <Header/>
-        <FetchProduct/>
-        <List/>
+        <ProductFetch/>
       </Fragment>
     );
 }
